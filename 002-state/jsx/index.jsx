@@ -7,7 +7,9 @@ class Clock extends React.Component {
     }
     updateCurrentTime(){
         setInterval(()=>{
-            this.setState({currentTime: (new Date()).toLocaleString('ko')})
+            this.setState({
+                currentTime: (new Date()).toLocaleString('ko')
+            })
         }, 1000)
     }
     render(){
