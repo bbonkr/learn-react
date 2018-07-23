@@ -1,0 +1,4 @@
+[
+    {"id":"1","firstName": "본철", "lastName": "구", "email":"bbon@live.com", "ipAddress":"192.168.10.20"},
+    {"id":"2", "firstName": "철수", "lastName": "김", "email":"cskim@idino.co.kr", "ipAddress":"127.0.0.1"}
+]
