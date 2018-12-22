@@ -12,6 +12,9 @@ class Content extends React.Component {
         let emailAddress = this.refs.emailAddress;
         let comments = this.refs.comments;
 
+        console.log(`emailAddress: ${emailAddress}`);
+        console.log(`comments: ${comments}`);
+
         console.log(ReactDOM.findDOMNode(emailAddress).value);
         console.log(ReactDOM.findDOMNode(comments).value);
     }
